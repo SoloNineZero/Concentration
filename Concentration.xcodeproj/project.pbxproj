@@ -13,6 +13,8 @@
 		A85C6634297E46750093DAC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85C6632297E46750093DAC3 /* Main.storyboard */; };
 		A85C6636297E46770093DAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85C6635297E46770093DAC3 /* Assets.xcassets */; };
 		A85C6639297E46770093DAC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85C6637297E46770093DAC3 /* LaunchScreen.storyboard */; };
+		A85C6641297EBF570093DAC3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C6640297EBF570093DAC3 /* Card.swift */; };
+		A85C6643297EBF850093DAC3 /* ConcentrationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C6642297EBF850093DAC3 /* ConcentrationGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A85C6635297E46770093DAC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A85C6638297E46770093DAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A85C663A297E46770093DAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85C6640297EBF570093DAC3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A85C6642297EBF850093DAC3 /* ConcentrationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				A85C662C297E46750093DAC3 /* AppDelegate.swift */,
 				A85C662E297E46750093DAC3 /* SceneDelegate.swift */,
 				A85C6630297E46750093DAC3 /* ViewController.swift */,
+				A85C6640297EBF570093DAC3 /* Card.swift */,
+				A85C6642297EBF850093DAC3 /* ConcentrationGame.swift */,
 				A85C6632297E46750093DAC3 /* Main.storyboard */,
 				A85C6635297E46770093DAC3 /* Assets.xcassets */,
 				A85C6637297E46770093DAC3 /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				A85C6631297E46750093DAC3 /* ViewController.swift in Sources */,
 				A85C662D297E46750093DAC3 /* AppDelegate.swift in Sources */,
+				A85C6643297EBF850093DAC3 /* ConcentrationGame.swift in Sources */,
 				A85C662F297E46750093DAC3 /* SceneDelegate.swift in Sources */,
+				A85C6641297EBF570093DAC3 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
