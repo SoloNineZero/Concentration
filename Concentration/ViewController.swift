@@ -12,13 +12,13 @@ class ViewController: UIViewController {
     
     lazy var game = ConcentrationGame(numberOfPairsOfCards: (buttonCollection.count + 1) / 2)
     
-    var emojis = ["🦊", "🐰", "🐶", "🐱", "🐭", "🐹", "🐻", "🐼", "🐻‍❄️", "🐨", "🐯", "🦁"]
+    var emojis = ["🦊", "🐰", "🐶", "🐱", "🐭", "🐹", "🐻", "🐼", "🐻‍❄️", "🐨", "🐯", "🦁", "🐙", "🐵", "🐸", "🐷", "🐮"]
 
     var emojiDictionary = [Int: String]()
     
     var touches = 0 {
         didSet{
-            touchLabel.text = "Количество нажатий: \(touches)"
+            touchLabel.text = "Нажатий: \(touches)"
         }
     }
     
