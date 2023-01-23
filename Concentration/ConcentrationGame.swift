@@ -36,6 +36,7 @@ class ConcentrationGame {
         for _ in 1...numberOfPairsOfCards {
             let card = Card()
             cards += [card, card]
+            cards.shuffle()
         }
     }
     
